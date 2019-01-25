@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game Test</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="full-screen" content="yes" />
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            font-size: 0;
+        }
+        
+        body,
+        canvas,
+        div {
+            text-align: center;
+            background-color: #fff;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="main"></canvas>
+    <script src="engine/h7.base.js"></script>
+    <script src="engine/h7.node.js"></script>
+    <script src="engine/h7.game.js"></script>
+    <script src="engine/h7.layer.js"></script>
+    <script src="engine/h7.scene.js"></script>
+    <script src="engine/h7.label.js"></script>
+    <script src="engine/h7.sprite.js"></script>
+    <script src="engine/h7.scrollview.js"></script>
+    <script src="engine/h7.animate.js"></script>
+    <script src="engine/h7.rect.js"></script>
+    <script src="engine/h7.arc.js"></script>
+    <script src="engine/h7.number.js"></script>
+    <script src="engine/h7.audio.js"></script>
+
+    <script src="engine/h7.events.js"></script>
+    <script src="engine/h7.texture.js"></script>
+    <script src="engine/h7.input.js"></script>
+    <script src="engine/h7.thread.js"></script>
+
+    <script src="scripts/mainLayer.js"></script>
+    <script src="scripts/mainScene.js"></script>
+    <script>
+        H7.Game.init({
+            id: "#main",
+            height: 680,
+            retina: true,
+            sizeType: 3,
+            width: 360
+        });
+
+        var scene = new MainScene(123);
+        // var scene2 = new MainScene(123);
+        
+        H7.Game.run(scene);
+        H7.Game.start();
+    </script>
+</body>
+
+</html>

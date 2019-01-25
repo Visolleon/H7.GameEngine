@@ -1,0 +1,28 @@
+{
+
+"images": [
+    "sp1.png"
+],
+
+"frames": [
+    [1, 1, 376, 328, 0, -12, -36],
+    [379, 1, 119, 86, 0, -141, -157],
+    [1, 331, 221, 112, 0, -90, -144],
+    [224, 331, 206, 83, 0, -97, -159],
+    [224, 416, 150, 79, 0, -125, -161]
+],
+
+"animations": {
+    "haohuamaojiazi": { "frames": [0] },
+    "putongguantou": { "frames": [1] },
+    "gaojishiwu": { "frames": [2] },
+    "putongshiwu": { "frames": [3] },
+    "dingjiguantou": { "frames": [4] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:88ba188051c0b0e4ff59d4dd80f5981e:1bb1a855a741fdac00988adeefaa25cb:996e6a51ca38c9e5c53aacd85ed0ae6f$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}
