@@ -87,3 +87,6 @@ H7.Game.run(scene);
 ```
 H7.Game.start();
 ```
+
+## LICENSE
+[MIT](LICENSE)
